@@ -2814,7 +2814,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1585706515}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2869,8 +2869,8 @@ Transform:
   m_GameObject: {fileID: 1585706515}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 12.433942, y: 12.433942, z: 12.433942}
+  m_LocalPosition: {x: 0, y: 0, z: 13}
+  m_LocalScale: {x: 4.5209813, y: 4.5209813, z: 4.5209813}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3486,7 +3486,7 @@ GameObject:
   - component: {fileID: 1805664374}
   - component: {fileID: 1805664373}
   m_Layer: 0
-  m_Name: Audio Source (1)
+  m_Name: Horror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4031,7 +4031,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 36c32a08d7e6e7340a05d4d540c2f641, type: 2}
+  - {fileID: 2100000, guid: 35df2aca8d5ac4340b46c43ca88f8c64, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4088,8 +4088,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf826be900286d4f91758b45a2458a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Horror: {fileID: 361500010}
-  HorrorLights: {fileID: 16950745}
+  Sound: {fileID: 361500010}
+  Lights: {fileID: 16950745}
 --- !u!1 &1972203499
 GameObject:
   m_ObjectHideFlags: 0
@@ -4211,8 +4211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbf826be900286d4f91758b45a2458a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Horror: {fileID: 1805664373}
-  HorrorLights: {fileID: 985130060}
+  Sound: {fileID: 1805664373}
+  Lights: {fileID: 985130060}
 --- !u!1 &2054481066
 GameObject:
   m_ObjectHideFlags: 0
